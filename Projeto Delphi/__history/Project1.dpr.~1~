@@ -1,0 +1,14 @@
+program Project1;
+
+uses
+  Vcl.Forms,
+  frminicialUnt in 'frminicialUnt.pas' {frminicial};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(Tfrminicial, frminicial);
+  Application.Run;
+end.

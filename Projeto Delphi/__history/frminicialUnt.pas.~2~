@@ -1,0 +1,66 @@
+unit frminicialUnt;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Menus, System.Actions,
+  Vcl.ActnList, System.ImageList, Vcl.ImgList, Vcl.ToolWin, Vcl.ComCtrls;
+
+type
+  Tfrminicial = class(TForm)
+    mmPrincipal: TMainMenu;
+    Arquivo1: TMenuItem;
+    Cadastro1: TMenuItem;
+    Vendas1: TMenuItem;
+    Sair1: TMenuItem;
+    Cliente1: TMenuItem;
+    Funcionrio1: TMenuItem;
+    Produto1: TMenuItem;
+    Vendas3: TMenuItem;
+    Sobre1: TMenuItem;
+    StatusBar1: TStatusBar;
+    ToolBar1: TToolBar;
+    ILPrincipal48: TImageList;
+    ILPrincipal20: TImageList;
+    acPrincipal: TActionList;
+    acCadCliente: TAction;
+    acCadFuncionario: TAction;
+    acCadProduto: TAction;
+    acVenda: TAction;
+    acRelCliente: TAction;
+    acRelProduto: TAction;
+    acRelVenda: TAction;
+    acSair: TAction;
+    acSobre: TAction;
+    Action1: TAction;
+    Relatotios: TMenuItem;
+    Clientes1: TMenuItem;
+    Produtos1: TMenuItem;
+    Vendas2: TMenuItem;
+    procedure acPrincipalExecute(Action: TBasicAction; var Handled: Boolean);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+
+  end;
+
+var
+  frminicial: Tfrminicial;
+
+implementation
+
+{$R *.dfm}
+
+
+begin
+
+
+
+procedure TFor
+begin
+
+end;
+
+end.
